@@ -16,16 +16,31 @@ You need Python 3.11+ installed on your local development machine.
 # Installing
 Clone the repository to your local machine:
 
-git clone https://github.com/yourusername/yourrepositoryname.git
+``` git clone https://github.com/yourusername/yourrepositoryname.git ```
+
+Create and Activate a Virtual Environment
+
+It's recommended to create a virtual environment to manage the dependencies for your project separately. You can create and activate a virtual environment using:
+
+For Windows:
+
+``` python -m venv venv ```
+``` .\venv\Scripts\activate ```
+
+For macOS and Linux:
+
+``` python3 -m venv venv ```
+``` source venv/bin/activate ```
 
 Install the required dependencies:
 
-pip install -r requirements.txt
+``` pip install -r requirements.txt ```
+
 
 # Running the application
 Start the FastAPI server by running:
 
-uvicorn app:app --reload
+``` uvicorn app:app --reload ```
 
 
 
