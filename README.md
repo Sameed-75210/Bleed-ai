@@ -1,4 +1,10 @@
 # Bleed-ai
+
+# Loom Video Demonstrating the functionalities of FastAPI application:
+
+https://www.loom.com/share/b8a146ea5b064e32bb150d1ed55393ae
+
+
 # FastAPI User Management and Image Processing Application
 
 This repository contains a FastAPI application designed to demonstrate user management functionalities including authentication, and image processing capabilities using MediaPipe for face detection.
@@ -44,7 +50,3 @@ Start the FastAPI server by running:
 
 
 
-
-# Loom Video Demonstrating the functionalities of FastAPI application:
-
-https://www.loom.com/share/b8a146ea5b064e32bb150d1ed55393ae
